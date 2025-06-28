@@ -1,4 +1,4 @@
-import Avatar from '../assets/Avatar.png';
+import Avatar from '../assets/Avatar.webp';
 import { FiDownload } from 'react-icons/fi';
 import priyanshuResume from '../assets/priyanshu_Resume.pdf';
 

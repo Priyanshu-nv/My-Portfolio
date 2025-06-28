@@ -1,6 +1,6 @@
 import Avatar from '../assets/Avatar.png';
 import { FiDownload } from 'react-icons/fi';
-import priyanshuResume from '../assets/priyanshuResume.pdf';
+import priyanshuResume from '../assets/priyanshu_Resume.pdf';
 
 function Home() {
   return (

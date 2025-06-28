@@ -41,6 +41,7 @@ function Home() {
           <a
             className="flex font-semibold flex-row items-center p-2 bg-gradient-to-b from-sky-500 via-blue-500 to-blue-800 rounded hover:-translate-y-1 "
             href={priyanshuResume}
+            target="_blank"
           >
             <p>Resume</p>
             <span className="h-5 ml-2 text-xl text-white">

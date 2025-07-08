@@ -1,6 +1,5 @@
 import Avatar from '../assets/Avatar.webp';
 import { FiDownload } from 'react-icons/fi';
-import priyanshuResume from '../assets/priyanshu_Resume.pdf';
 
 function Home() {
   return (
@@ -25,7 +24,7 @@ function Home() {
           Priyanshu
         </h1>
         <p className="text-gray-300 text-lg mb-8 max-w-[33rem] text-left mx-auto">
-          Motivated and detail-oriented Frontend Developer intern with a solid
+          Motivated and detail-oriented Frontend Developer with a solid
           foundation in HTML, CSS, JavaScript, and basic React.js.{' '}
           <br className="mb-2" /> Eager to learn concepts in a real-world
           environment and contribute to building clean, efficient, and
@@ -40,7 +39,7 @@ function Home() {
           </a>
           <a
             className="flex font-semibold flex-row items-center p-2 bg-gradient-to-b from-sky-500 via-blue-500 to-blue-800 rounded hover:-translate-y-1 "
-            href={priyanshuResume}
+            href="/My-Portfolio/Resume.pdf"
             target="_blank"
           >
             <p>Resume</p>

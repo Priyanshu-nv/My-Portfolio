@@ -1,6 +1,6 @@
-import ProjectCard from './ProjectCard';
-import todoimg from '../assets/to-do.PNG';
-import weatherApp from '../assets/weatherApp.PNG';
+import ProjectCard from "./ProjectCard";
+import habitimg from "../assets/Focus-flow.png";
+import weatherApp from "../assets/weatherApp.PNG";
 
 const Projects = () => {
   return (
@@ -16,10 +16,10 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
         <div className="py-12 px-8 flex flex-wrap justify-center gap-5">
           <ProjectCard
-            title="To-Do List"
-            main="Stay organized with this simple To-Do List app that lets you add, check off, and delete tasks in a clean, responsive UI. Built with React and TailwindCSS."
-            link="https://priyanshu-nv.github.io/to-do-list/"
-            image={todoimg}
+            title="FocusFlow - Habit Tracker"
+            main="FocusFlow is a responsive habit tracking app built with React and TailwindCSS. It includes a focus timer and input validation to enhance user productivity and experience."
+            link="https://focus-flow-project.vercel.app/"
+            image={habitimg}
           />
           <ProjectCard
             title="Basic Weather App"

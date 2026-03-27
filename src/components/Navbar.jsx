@@ -1,10 +1,10 @@
-import { useEffect } from 'react';
-import Logo from './Logo';
-import { IoMenuOutline } from 'react-icons/io5';
+import { useEffect } from "react";
+import Logo from "./Logo";
+import { IoMenuOutline } from "react-icons/io5";
 
 const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
   useEffect(() => {
-    document.body.style.overflow = isMenuOpen ? 'hidden' : '';
+    document.body.style.overflow = isMenuOpen ? "hidden" : "";
   }, [isMenuOpen]);
 
   return (

@@ -1,12 +1,12 @@
-import { RxCross2 } from 'react-icons/rx';
+import { RxCross2 } from "react-icons/rx";
 
 function Hamburger({ isMenuOpen, setIsMenuOpen }) {
   return (
     <div
       className={`fixed w-full top-0 left-0  bg-gray-950 z-40 flex flex-col items-center justify-center transition-all duration-300 gap-15 ease-in-out ${
         isMenuOpen
-          ? 'h-screen opacity-100 pointer-events-auto'
-          : 'h-0 opacity-0 pointer-events-none'
+          ? "h-screen opacity-100 pointer-events-auto"
+          : "h-0 opacity-0 pointer-events-none"
       }`}
     >
       <button
@@ -21,7 +21,7 @@ function Hamburger({ isMenuOpen, setIsMenuOpen }) {
         onClick={() => setIsMenuOpen(false)}
         href="#home"
         className={`text-2xl font-semibold text-gray-300 hover:text-white my-4 transform transition-transform duration-300 ${
-          isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
+          isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
         }`}
       >
         Home
@@ -30,7 +30,7 @@ function Hamburger({ isMenuOpen, setIsMenuOpen }) {
         onClick={() => setIsMenuOpen(false)}
         href="#about"
         className={`text-2xl font-semibold text-gray-300 hover:text-white my-4 transform transition-transform duration-300 ${
-          isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
+          isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
         }`}
       >
         About
@@ -39,7 +39,7 @@ function Hamburger({ isMenuOpen, setIsMenuOpen }) {
         onClick={() => setIsMenuOpen(false)}
         href="#projects"
         className={`text-2xl font-semibold text-gray-300 hover:text-white my-4 transform transition-transform duration-300 ${
-          isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
+          isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
         }`}
       >
         Projects
@@ -48,7 +48,7 @@ function Hamburger({ isMenuOpen, setIsMenuOpen }) {
         onClick={() => setIsMenuOpen(false)}
         href="#contact"
         className={`text-2xl font-semibold text-gray-300 hover:text-white my-4 transform transition-transform duration-300 ${
-          isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
+          isMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
         }`}
       >
         Contact

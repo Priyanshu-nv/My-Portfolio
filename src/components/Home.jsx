@@ -39,7 +39,7 @@ function Home() {
           </a>
           <a
             className="flex font-semibold flex-row items-center p-2 bg-gradient-to-b from-sky-500 via-blue-500 to-blue-800 rounded hover:-translate-y-1 "
-            href="/My-Portfolio/public/Priyanshu_Navidolatwala_Resume.pdf"
+            href="/My-Portfolio/Priyanshu_Navidolatwala_Resume.pdf"
             target="_blank"
           >
             <p>Resume</p>

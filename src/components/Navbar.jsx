@@ -18,7 +18,9 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
             onClick={() => setIsMenuOpen((prev) => !prev)}
             className="text-2xl absolute right-7 z-40 md:hidden cursor-pointer font-mono"
           >
-            <IoMenuOutline />
+            <Link to="/">
+              <IoMenuOutline />
+            </Link>
           </div>
 
           <div className="flex md:flex items-center space-x-8">
@@ -44,6 +46,31 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
               >
                 Contact
               </Link>
+
+              {/* <a
+                href="#home"
+                className="text-2xl hover:underline transition-all"
+              >
+                Home
+              </a>
+              <a
+                href="#about"
+                className="text-2xl hover:underline transition-all"
+              >
+                About
+              </a>
+              <a
+                href="#projects"
+                className="text-2xl hover:underline transition-all"
+              >
+                Projects
+              </a>
+              <a
+                href="#contact"
+                className="text-2xl hover:underline transition-all"
+              >
+                Contact
+              </a> */}
             </div>
           </div>
         </div>

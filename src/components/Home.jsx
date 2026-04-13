@@ -3,10 +3,7 @@ import { FiDownload } from "react-icons/fi";
 
 function Home() {
   return (
-    <section
-      id="home"
-      className="min-h-screen flex flex-col justify-center items-center lg:flex-row-reverse gap-9 lg:gap-15 bg-gradient-to-b from-black via-blue-950 to-gray-900"
-    >
+    <section className="min-h-screen flex flex-col justify-center items-center lg:flex-row-reverse gap-9 lg:gap-15 bg-gradient-to-b from-black via-blue-950 to-gray-900">
       <div className="text-center z-10 px-4">
         <img
           className="w-[400px] border-0 mt-20 rounded-full lg:m-0 lg:max-w[250px] object-cover object-bottom"

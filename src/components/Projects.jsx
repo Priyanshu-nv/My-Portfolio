@@ -4,10 +4,7 @@ import weatherApp from "../assets/weatherApp.PNG";
 
 const Projects = () => {
   return (
-    <section
-      id="projects"
-      className="min-h-screen flex items-center font-mono justify-center py-20 bg-gradient-to-b from-black via-blue-950 to-gray-900"
-    >
+    <section className="min-h-screen flex items-center font-mono justify-center py-20 bg-gradient-to-b from-black via-blue-950 to-gray-900">
       <div className="max-w-3xl mx-auto px-2">
         <h2 className="max-w-3xl text-4xl font-semibold mb-12 text-center">
           Featured Projects

@@ -1,19 +1,16 @@
 const About = () => {
   const skills = [
-    'HTML',
-    'CSS',
-    'javaScript',
-    'ReactJs',
-    'Tailwind',
-    'Git',
-    'GitHub',
+    "HTML",
+    "CSS",
+    "javaScript",
+    "ReactJs",
+    "Tailwind",
+    "Git",
+    "GitHub",
   ];
 
   return (
-    <section
-      id="about"
-      className="min-h-screen font-mono flex justify-center items-center py-20 bg-gradient-to-t from-black via-black to-gray-900"
-    >
+    <section className="min-h-screen font-mono flex justify-center items-center py-20 bg-gradient-to-t from-black via-black to-gray-900">
       <div className="max-w-3xl mx-auto px-2">
         <h2 className="max-w-3xl text-4xl font-semibold mb-12 text-center">
           About Me

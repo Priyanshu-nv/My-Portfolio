@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Logo from "./Logo";
 import { IoMenuOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
   useEffect(() => {
@@ -22,30 +23,27 @@ const Navbar = ({ isMenuOpen, setIsMenuOpen }) => {
 
           <div className="flex md:flex items-center space-x-8">
             <div className="hidden md:flex items-center space-x-14">
-              <a
-                href="#home"
-                className="text-2xl hover:underline transition-all"
-              >
+              <Link className="text-2xl hover:underline transition-all" to="/">
                 Home
-              </a>
-              <a
-                href="#about"
+              </Link>
+              <Link
                 className="text-2xl hover:underline transition-all"
+                to="/about"
               >
                 About
-              </a>
-              <a
-                href="#projects"
+              </Link>
+              <Link
                 className="text-2xl hover:underline transition-all"
+                to="/projects"
               >
                 Projects
-              </a>
-              <a
-                href="#contact"
+              </Link>
+              <Link
                 className="text-2xl hover:underline transition-all"
+                to="/contact"
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         </div>

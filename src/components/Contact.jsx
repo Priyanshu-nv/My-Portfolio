@@ -1,9 +1,6 @@
 export const Contact = () => {
   return (
-    <section
-      id="contact"
-      className="min-h-screen flex items-center font-mono justify-center py-20 bg-gradient-to-t from-black via-black to-gray-900"
-    >
+    <section className="min-h-screen flex items-center font-mono justify-center py-20 bg-gradient-to-t from-black via-black to-gray-900">
       <div className="px-4 w-150">
         <h2 className="max-w-3xl text-4xl font-semibold mb-12 text-center">
           Get In Touch
@@ -20,7 +17,7 @@ export const Contact = () => {
               name="name"
               placeholder="Name..."
               required
-              className="w-full bg-white/10 border  rounded px-4 py-3 text-white trasition focus:outline-none focus:border-blue-500"
+              className="w-full bg-white/10 border  rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500"
             />
           </div>
           <div className="relative">

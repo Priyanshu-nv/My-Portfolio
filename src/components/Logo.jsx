@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const Logo = () => {
   return (
-    <a href="#home" className="font-bold text-3xl transition-all">
+    <Link to="/" className="font-bold text-3xl transition-all">
       PortFolio
-    </a>
+    </Link>
   );
 };
 
